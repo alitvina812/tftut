@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>tut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <!-- <section>
+    <ul class="legend">
+      <li>
+        <em id="sym1"></em>
+        <span id="prob1"></span>
+      </li>
+      <li>
+        <em id="sym2"></em>
+        <span id="prob2"></span>
+      </li>
+      <li>
+        <em id="sym3"></em>
+        <span id="prob3"></span>
+      </li>
+      <li>
+        <em id="sym4"></em>
+        <span id="prob4"></span>
+      </li>
+      <li>
+        <em id="sym5"></em>
+        <span id="prob5"></span>
+      </li>
+      <li>
+        <em id="sym6"></em>
+        <span id="prob6"></span>
+      </li>
+      <li>
+        <em id="sym7"></em>
+        <span id="prob7"></span>
+      </li>
+    </ul>
+  </section> -->
+
+  <section class="bars_container">
+    <div class="bar" id="sym1">
+      <span id="prob1"></span>
+    </div>
+    <div class="bar" id="sym2">
+      <span id="prob2"></span>
+    </div>
+    <div class="bar" id="sym3">
+      <span id="prob3"></span>
+    </div>
+    <div class="bar" id="sym4">
+      <span id="prob4"></span>
+    </div>
+    <div class="bar" id="sym5">
+      <span id="prob5"></span>
+    </div>
+  </section>
+  <section class="canvas_container">
+    <canvas id="canvas" width="300" height="300" class="canvas" style="border:1px solid #b9bfc9;margin-top:25px;"></canvas>
+    <div class="btn-group" style='margin-top:40px; '>
+      <!-- <input type="range" min="5" max="20" value="10" class="slider" id="myRange" style='margin-top:20px;'> -->
+      <button class="" onclick='erase()' disabled>Clear</button>
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/@tensorflow/tfjs/dist/tf.js"></script>
+  <script src="node_modules/fabric/dist/fabric.js"></script>
+  <script src="main.js"> </script>
+</body>
+
+<script>
+  console.log('starting');
+  start('en')
+</script>
+
+</html>
